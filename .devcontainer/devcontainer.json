@@ -1,8 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-   "customizations": {
-    "vscode": {
-      "extensions": ["edonet.vscode-command-runner"]
-    }
-  }
+   "features": {
+     "ghcr.io/devcontainers-contrib/features/npm-package:1": {
+       "package": "requests"
+     }
+   }
 }
